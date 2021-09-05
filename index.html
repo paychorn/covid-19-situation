@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" 
+          rel="stylesheet"/>
+    <title>COVID-19 SITUATION</title>
+</head>
+<body>
+    <h1 id="header">COVID-19 SITUATION</h1>
+    <div class="box-container">
+        <div class="large-box-container">
+            <div class="large-box box" id="cases-box">
+                <h2 class="title top">NEW CASES</h2>
+                <p id="new-cases" class="content orange">+18,702</p>
+                <hr />      
+                <h2 class="title">TOTAL CASES</h2>
+                <p id="total-cases" class="content orange ">1,139,571</p>
+                <hr />
+                <div class="bottom-component">
+                    <div class="left">
+                    <h2 class="title inline">ACTIVE</h2>
+                    <p id="active" class="content">185,200</p>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="right">
+                    <h2 class="title inline">CRITICAL</h2>
+                    <p id="critical" class="content">5,174</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="small-box-container">
+            <div class="small-box box" id="deaths-box">
+                <h2 class="title top">NEW DEATHS</h2>
+                <p id="new-deaths" class="content black">+273</p>
+                <hr />
+                <h2 class="title bottom">TOTAL DEATHS</h2>
+                <p id="total-deaths" class="content black">10,587</p>
+            </div>
+            <div class="small-box box" id="recovered-box">
+                <h2 class="title top">NEW RECOVERED</h2>
+                <p id="new-recovered" class="content green">+20,163</p>
+                <hr />
+                <h2 class="title bottom">TOTAL RECOVERED</h2>
+                <p id="total-recovered" class="content green">943,784</p>
+            </div>
+        </div>
+    </div>
+    <h3 class="resource">Data from <a href="https://disease.sh/v3/covid-19/historical/all?lastdays=all">disease.sh</a></h3>
+</body>
+</html>
